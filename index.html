@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive Rating Component</title>
+
+  <!--google fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main>
+
+    <!-- Rating state start -->
+    <div class="ratingCard">
+      <img src="images/icon-star.svg" class="rating_icon" alt="icon">
+
+      <h1 class="rating_card_title"> How did we do?</h1>
+
+      <p class="rating_card_detail">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+
+      <div class="rating_numbers">
+        <button type="button" name="1" class="rating_number">1</button>
+        <button type="button" name="2" class="rating_number">2</button>
+        <button type="button" name="3" class="rating_number">3</button>
+        <button type="button" name="4" class="rating_number">4</button>
+        <button type="button" name="5" class="rating_number">5</button>
+      </div>
+
+      <button type="button" class="submit_button">Submit</button>
+
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="thankYouCard">
+      <img src="images/illustration-thank-you.svg" class="thankYou_img" alt="">
+      <p class="ratingPoint">You selected <!-- Add rating here --> out of 5</p>
+
+      <h2 class="thankYou">Thank you!</h2>
+
+      <p class="thankYou_message">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+
+    </div>
+    <!-- Thank you state end -->
+
+  </main>
+
+
+  
+  <!-- Custom Js  -->
+  <script src="./script.js"></script>
+
+</body>
+</html>
