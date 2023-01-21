@@ -81,7 +81,7 @@ button{
 
 .rating_icon{
     background-color: var(--Light-Grey);
-    padding: .8rem;
+    padding: .7rem;
     border-radius: 50%;
 }
 
@@ -102,6 +102,7 @@ button{
 
 .rating_number{
     background-color: var(--Light-Grey);
+    color: var(--White);
     border-radius: 50%;
     display: inline-block;
     font-weight: var(--fw-bold);
